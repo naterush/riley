@@ -14,4 +14,8 @@ app.get('/', function(req, res) {
     res.render('main.html');
 })
 
+app.get('/blog', function(req, res) {
+    res.render('blog.html');
+})
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
